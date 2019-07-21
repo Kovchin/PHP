@@ -1,0 +1,20 @@
+.head_tabs{     /*расстановка элементов шапки вкладок*/
+    display: flex;
+    flex-direction: row;
+}
+
+.head_tabs p{   /*элементы шапки вкладок*/
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid darkred;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tabs{          /*блок самих вкладок*/
+    border: 3px solid darkred;
+    padding: 5px 20px;
+}
+
+.active{        /*активные шапки вкладок*/
+    background-color: darkgrey;
+}
